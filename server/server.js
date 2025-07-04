@@ -15,7 +15,6 @@ const app = express();
 // Middleware
 const allowedOrigins = [
   "http://localhost:5173",
-  "https://healthplus-pi.vercel.app"
 ];
 
 app.use(cors({

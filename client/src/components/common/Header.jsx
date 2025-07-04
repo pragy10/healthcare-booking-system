@@ -24,12 +24,9 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="logo">
             <div className="logo-icon">
-              <svg width="32" height="32" viewBox="0 0 24 24" fill="none">
-                <path d="M12 2L2 7v10c0 5.55 3.84 9.74 9 11 5.16-1.26 9-5.45 9-11V7l-10-5z" 
-                      fill="currentColor"/>
-              </svg>
+              <img src="https://cdn-icons-png.flaticon.com/512/245/245305.png" alt="VitaBloom Logo" width="32" height="32" />
             </div>
-            <span className="logo-text">HealthCare</span>
+            <span className="logo-text">VitaBloom</span>
           </Link>
 
           {/* Desktop Navigation */}
